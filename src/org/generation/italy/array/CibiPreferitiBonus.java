@@ -10,11 +10,12 @@ public class CibiPreferitiBonus {
 		System.out.println("Questa lista contiene " + cibiPreferiti.length + " elementi");
 		System.out.println("Cibo preferito: " + cibiPreferiti[0]);
 		System.out.println("Cibo comunque preferito ma settimo: " + cibiPreferiti[cibiPreferiti.length -1]);
-		System.out.println("Cibo preferito in posizione mediana: " + cibiPreferiti[3]);
+		System.out.println("Cibo preferito in posizione mediana: " + cibiPreferiti[cibiPreferiti.length /2]);
 		
 		/*
 		 * alt:
-		 * 	System.out.println("Cibo preferito in posizione mediana: " + cibiPreferiti[cibiPreferiti.length /2]);
+		 * 	System.out.println("Cibo preferito in posizione mediana: " + cibiPreferiti[3]);
+
 		 */
 
 		
